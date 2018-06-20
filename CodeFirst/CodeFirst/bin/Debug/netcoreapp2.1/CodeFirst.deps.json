@@ -1,0 +1,61 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "9fcac9d7450e415be8c95e9af6c3286fec53716e"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "CodeFirst/1.0.0": {
+        "dependencies": {
+          "EntityFramework": "6.2.0",
+          "NuGet.PackageManagement": "4.7.0"
+        },
+        "runtime": {
+          "CodeFirst.dll": {}
+        }
+      },
+      "EntityFramework/6.2.0": {
+        "runtime": {
+          "lib/net45/EntityFramework.SqlServer.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.2.61023.0"
+          },
+          "lib/net45/EntityFramework.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.2.61023.0"
+          }
+        }
+      },
+      "NuGet.PackageManagement/4.7.0": {
+        "runtime": {
+          "lib/net46/NuGet.PackageManagement.dll": {
+            "assemblyVersion": "4.7.0.5",
+            "fileVersion": "4.7.0.5148"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CodeFirst/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EntityFramework/6.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ptGyXOf26qLrtn+2doAmylIlCxOnBJANwlyyLrXDmqIk9O18IzLWHyxDwwAyhgXkxmbiaA0WNpRy67WRReInBw==",
+      "path": "entityframework/6.2.0",
+      "hashPath": "entityframework.6.2.0.nupkg.sha512"
+    },
+    "NuGet.PackageManagement/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MK8FAyUYDa7m4aJ7XQB1ERY5pToXbxBb++KC/Wpp4+17b1mSyyOgGyDGJwi6ZcZ2AM8FYBsQ2I2sJQh3QgttVA==",
+      "path": "nuget.packagemanagement/4.7.0",
+      "hashPath": "nuget.packagemanagement.4.7.0.nupkg.sha512"
+    }
+  }
+}
